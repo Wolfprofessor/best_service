@@ -1,0 +1,210 @@
+@import "blocks/normalize.scss";
+
+// PAGE COMPONENTS
+@import "blocks/header.scss";
+.hand-blocks{
+    display: flex;
+    flex-direction: row;
+}
+.hand-text-block{
+    display: flex;
+    flex-direction: column;
+    margin: 30 30 0 30px;
+}
+h2{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 55px;
+}
+.hand-text{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 20px;
+}
+.btnblue{
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: #05a0af;
+    border-radius: 3px;
+    height: 40px;
+    width: 300px; 
+    text-align: center;
+    padding-top: 10px;
+
+}
+.services{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 65px;
+    color: white;
+    text-align: center;
+}
+.services-block{
+    justify-content: space-around; 
+    display: flex;
+
+    background-color: #373737;
+    padding: 5px 0;
+}
+.line-block{
+    width: 30%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.line-thick{
+    height: 1px;
+    width: 70%;
+    background-color: white;
+}
+.line-fat{
+    height: 3px;
+    width: 30%;
+    background-color: white;
+}
+.web-devs{
+    display: flex;
+    flex-direction: row;
+}
+.web-dev{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3d3d3d;
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 100 0px;
+}
+.web-dev:hover {
+    background-color: #097e89;
+}
+.web-btn{
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background-color: #959595;
+    border-radius: 3px;
+    height: 40px;
+    width: 270px; 
+    text-align: center;
+    padding-top: 10px;
+}
+.feedback-blocks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3d3d3d;
+    padding: 40 0px;
+}
+.feedback-block{
+    color: lightgray;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.clients-block{
+    justify-content: space-around;
+    display: flex;
+    background-color: #fefefe;
+    padding: 5 0px;
+}
+.line-thick-serv{
+    height: 1px;
+    width: 70%;
+    background-color: #656464;
+}
+.line-fat-serv{
+    height: 3px;
+    width: 30%;
+    background-color: #656464;
+}
+.clients-text{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 65px;
+    color: #656464;
+    text-align: center;
+}
+.clients-pics{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: stretch; 
+}
+.client-pic{
+    margin: 50 0px;
+    padding: 50 0px; 
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.quote-block{
+    background-color: #097e89;
+    display: flex;
+    flex-direction: row;
+}
+.quote-block-one{
+    margin: 20 20px;
+    padding: 20 20px;
+}
+.quote-h{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+.quote-text{
+    color: white;
+    font-size: 18px;
+}
+.btnwhite{
+    background-color: #fefefe;
+    color: #097e89;
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-bottom: -80px;
+    padding: 12 12px;
+}
+.input-block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+.quote-input{
+    color: white;
+    background-color: #097e89;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 40px;
+    margin-bottom: -80px;
+    padding: 11 11px;
+    font-size: 16px;
+    border: 1px solid white;
+
+}
+input[type="text"]::placeholder { color: white; }
+.line{
+    width: 25px;
+}
+.ftr{
+    display: flex;
+    flex-direction: row; 
+    background-color: #474747;
+}
+.ftr-small{
+    display: flex;
+    flex-direction: column; 
+}
+.ftr-h{
+    font-family: 'Lexend Deca', sans-serif;
+    color:#e5e5e5; 
+}
+.ftr-text{
+    font-family: 'Lexend Deca', sans-serif;
+    color:#e5e5e5;
+    font-size: 16px;
+    text-decoration: none;
+}
